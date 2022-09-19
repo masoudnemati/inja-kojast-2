@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!4v1663600902149!6m8!1m7!1sCAoSLEFGMVFpcE9mNTVMMVBWLVB5Zkl5cXpyU2FmQzZqNXJJS1BhWldKNXRwZDZx!2m2!1d37.25860432904193!2d55.15106112381054!3f88!4f0!5f0.7820865974627469"
+        width="700"
+        height="900"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        // loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
   );
 }
